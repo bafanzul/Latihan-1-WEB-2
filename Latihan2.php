@@ -1,4 +1,4 @@
-*
+
 <?php
 
     $nama = $_GET['nama'];
@@ -8,7 +8,6 @@
     $img = $_GET['img'];
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,10 +16,14 @@
         <title>Detail Mahasiswa</title>
     </head>
     <body>
-        <img src="<?= $img; ?>" alt="">
-        <h1><?= $nama; ?></h1>
-        <h1><?= $nim; ?></h1>
-        <h1><?= $jurusan; ?></h1>
-        <h1><?= $email; ?></h1>
+
+        <h1>Daftar Mahasiswa</h1>
+        <ul>
+            <img src=""><?= $img; ?> 
+            <li><h4><?= $nama; ?></h4></li>
+            <li><h4><?= $nim; ?></h4></li>
+            <li><h4><?= $jurusan; ?></h4></li>
+            <li><h4><?= $email; ?></h4></li>
+        </ul>
     </body>
 </html>
