@@ -43,7 +43,8 @@ $mahasiswa = [
                 &nim=<?php echo $mhs['nim']; ?>
                 &jurusan=<?php echo $mhs['jurusan']; ?>
                 &email=<?php echo $mhs['email']; ?>
-                &img=<?php echo $mhs['img']; ?>" > <?php echo $mhs['nama']; ?></a>  
+                &img=<?php echo $mhs['img']; ?>"> 
+                <?php echo $mhs['nama']; ?></a>  
                 </li>
             <?php endforeach; ?>
         </ul>    

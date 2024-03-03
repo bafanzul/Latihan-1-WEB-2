@@ -25,5 +25,7 @@
             <li><?= $jurusan; ?></li>
             <li><?= $email; ?></li>
         </ul>
+
+    <a href = latihan1.php>Kembali ke halaman Sebelumnya</a>   
     </body>
 </html>
