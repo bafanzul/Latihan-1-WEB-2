@@ -1,3 +1,4 @@
+*
 <?php
 
     $nama = $_GET['nama'];
@@ -6,6 +7,7 @@
     $email = $_GET['email'];
     $img = $_GET['img'];
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
