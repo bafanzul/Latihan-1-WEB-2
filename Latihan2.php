@@ -17,13 +17,13 @@
     </head>
     <body>
 
-        <h1>Daftar Mahasiswa</h1>
+        <h1>Detail Mahasiswa</h1>
         <ul>
-            <img src=""><?= $img; ?> 
-            <li><h4><?= $nama; ?></h4></li>
-            <li><h4><?= $nim; ?></h4></li>
-            <li><h4><?= $jurusan; ?></h4></li>
-            <li><h4><?= $email; ?></h4></li>
+            <li><img src="<?= $img; ?>"></li> 
+            <li><?= $nama; ?></li>
+            <li><?= $nim; ?></li>
+            <li><?= $jurusan; ?></li>
+            <li><?= $email; ?></li>
         </ul>
     </body>
 </html>

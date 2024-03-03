@@ -13,14 +13,14 @@ $mahasiswa = [
         "nama" => "Suci Wulandari",
         "jurusan" => "Teknologi Informasi",
         "email" => "Suciwulan@stimata.ac.id",
-        "img" =>  "suci.jpg"
+        "img" =>  "img/suci.jpg"
     ],
     [
         "nim" => "23520005",
         "nama" => "dwi",
         "jurusan" => "Teknologi Informasi",
         "email" => "dwi@stimata.ac.id",
-        "img" =>  "dwi.jpg"
+        "img" =>  "img/dwi.jpg"
     ],
 
 ];
@@ -42,7 +42,8 @@ $mahasiswa = [
                 <a href="latihan2.php?nama=<?php echo $mhs['nama']; ?>
                 &nim=<?php echo $mhs['nim']; ?>
                 &jurusan=<?php echo $mhs['jurusan']; ?>
-                &email=<?php echo $mhs['email']; ?>&img=<?php echo $mhs['img']; ?>" > <?php echo $mhs['nama']; ?></a>  
+                &email=<?php echo $mhs['email']; ?>
+                &img=<?php echo $mhs['img']; ?>" > <?php echo $mhs['nama']; ?></a>  
                 </li>
             <?php endforeach; ?>
         </ul>    
