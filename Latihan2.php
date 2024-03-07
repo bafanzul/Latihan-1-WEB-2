@@ -6,6 +6,12 @@
     $jurusan = $_GET['jurusan'];    
     $email = $_GET['email'];
     $img = $_GET['img'];
+
+    if (!isset ($_GET["nama"])){
+        //redirect
+        header("Location: Latihan1.php");
+        exit;
+    }
 ?>
 
 <!DOCTYPE html>

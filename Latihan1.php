@@ -20,7 +20,7 @@ $mahasiswa = [
         "nama" => "dwi",
         "jurusan" => "Teknologi Informasi",
         "email" => "dwi@stimata.ac.id",
-        "img" =>  "img/dwi.jpg"
+        "img" =>  "img/dwi.png"
     ],
 
 ];
