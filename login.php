@@ -25,7 +25,7 @@ if (isset($_POST["submit"])){
 <body>
     <h1>Login Admin</h1>
     <?php if (isset($eror)) : ?>
-    <p>Username / password Anda Salah</p>
+    <p style="color: red; font-style: italic;">Username / password Anda Salah</p>
     <?php endif; ?>
 
     <ul>
@@ -43,6 +43,6 @@ if (isset($_POST["submit"])){
             </li>
         </form>
 
-    </ul>
+    </ul> 
 </body>    
 </html>
